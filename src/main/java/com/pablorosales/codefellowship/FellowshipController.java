@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class FellowshipController {
 
   @RequestMapping(value = "/" , method = RequestMethod.GET)
-  public String landingPage(){
-    return "landing.html";
+  public String signInPage(){
+    return "index.html";
   }
 }
